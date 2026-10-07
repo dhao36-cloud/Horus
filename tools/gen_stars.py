@@ -9,8 +9,7 @@ import urllib.request
 from datetime import datetime, timezone, timedelta
 
 USERNAME = "dhao36-cloud"
-OUT_PATH = "/home/hatch/workspace/starsync/starred/README.md"
-
+OUT_PATH = "starred/README.md"
 CATEGORIES = [
     ("AI 大模型与智能体", ["llm", "claude", "agent", "skill", "mcp", "gpt", "codex",
                           "notebooklm", "chatgpt", "ai ", " ai", "artificial"]),
